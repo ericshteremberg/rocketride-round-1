@@ -98,7 +98,7 @@ python scripts/demo.py --record demo-recording.json
 
 The live demo uses a temporary database and separate Python processes. It demonstrates a real public import, an offline read with socket connections disabled, a repeated real import with unique issue identities, a real API 404, and preservation of saved data after the error. It removes `GITHUB_TOKEN` from child environments so the demonstration does not depend on credentials. GitHub data can change between calls; the demo validates uniqueness and explains counts rather than assuming the upstream page is frozen.
 
-The tests cover updates, unchanged reimports, multiple repositories, pull-request filtering, persistence, offline reads, invalid input, API failures, malformed responses, and rollback boundaries. CI runs the same suite on Linux and Windows with Python 3.10 and 3.14. See [Architecture.MD](Architecture.MD) for the design and [DEMO.md](DEMO.md) for the recording.
+The tests cover updates, unchanged reimports, multiple repositories, pull-request filtering, persistence, offline reads, invalid input, API failures, malformed responses, and rollback boundaries. The included CI workflow configures the same suite on Linux and Windows with Python 3.10 and 3.14; the remote matrix has not been run. See [Architecture.MD](Architecture.MD) for the design and [DEMO.md](DEMO.md) for the recording.
 
 ## AI use and verification
 
@@ -106,7 +106,7 @@ This project was built with **OpenAI Codex in the Codex desktop app**, including
 
 The unfamiliar integration problem addressed with AI was the meaning of a GitHub “issues” page. Treating every returned object as an issue would import pull requests, and treating one page as a complete snapshot could incorrectly delete saved records. The proposed approach was checked against GitHub’s official repository-issues documentation, then verified with mixed issue/PR fixtures, repeated-import tests, malformed-page tests, and a live GitHub call. The implementation filters by the presence of `pull_request` and uses an atomic composite-key upsert without inferring deletions.
 
-Other tools used: Python `unittest`, `unittest.mock`, and `subprocess` for independent checks; SQLite for persistent storage and transaction validation; Git and GitHub CLI for publication; GitHub Actions for the operating-system and Python-version matrix; FFmpeg and Pillow for rendering a captioned terminal demo from captured command results. Python, SQLite, and the standard library are the only runtime dependencies of the connector. The demo rendering tools are not needed to use or test it.
+Other tools used: Python `unittest`, `unittest.mock`, and `subprocess` for independent checks; SQLite for persistent storage and transaction validation; Git for local version control and GitHub CLI to verify official CI action references; a GitHub Actions workflow for the operating-system and Python-version matrix; FFmpeg and Pillow for rendering a captioned terminal demo from captured command results. Python, SQLite, and the standard library are the only runtime dependencies of the connector. The demo rendering tools are not needed to use or test it.
 
 Before presenting this work, run the commands yourself and inspect the short implementation. Be ready to explain the primary key, transaction boundary, pull-request filter, and the limits of a one-page import.
 
