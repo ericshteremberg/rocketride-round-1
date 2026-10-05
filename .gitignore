@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-*
+*.db
+.venv/
+.env
+.DS_Store
+demo-recording.json

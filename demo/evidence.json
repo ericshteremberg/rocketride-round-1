@@ -1,0 +1,1030 @@
+{
+  "recorded_at_utc": "2026-10-05T20:59:16.289587+00:00",
+  "repository": "psf/requests",
+  "public_api_without_token": true,
+  "events": [
+    {
+      "name": "1 Real GitHub import",
+      "command": "python -m rocketride import psf/requests --db demo.sqlite3",
+      "result": {
+        "ok": true,
+        "repository": "psf/requests",
+        "issues": [
+          {
+            "repository": "psf/requests",
+            "number": 6275,
+            "title": "[Feature request or doc oversight?] Apparently, there's still no way to read uncompressed content as file-like object #465 ",
+            "url": "https://github.com/psf/requests/issues/6275"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6282,
+            "title": "IPv6 Zone Identifiers are not correctly parsed (still)",
+            "url": "https://github.com/psf/requests/issues/6282"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6294,
+            "title": "PUT requests for zero-byte files get 'Transfer-Encoding': 'chunked' header",
+            "url": "https://github.com/psf/requests/issues/6294"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6313,
+            "title": "requests ignores no_proxy which contains a IPv6 CIDR ",
+            "url": "https://github.com/psf/requests/issues/6313"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6512,
+            "title": "Requests are not retried when received body length is shorter than Content-Length",
+            "url": "https://github.com/psf/requests/issues/6512"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6582,
+            "title": "\"Recommended Packages and Extensions\" page asyncio recommendations are outdated",
+            "url": "https://github.com/psf/requests/issues/6582"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6653,
+            "title": "Document which exceptions request() might raise",
+            "url": "https://github.com/psf/requests/issues/6653"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6734,
+            "title": "requests 2.32.3 & urllib3 1.26.18 issue with unicode put",
+            "url": "https://github.com/psf/requests/issues/6734"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6735,
+            "title": "requests 2.32.3 with IPv6 link local address fails with error: [Errno -2] Name or service not known",
+            "url": "https://github.com/psf/requests/issues/6735"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6782,
+            "title": "Doc: missing example",
+            "url": "https://github.com/psf/requests/issues/6782"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6808,
+            "title": "Double-digit link-local IPv6 zone id raises ValueError",
+            "url": "https://github.com/psf/requests/issues/6808"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6830,
+            "title": "PreparedRequests can't bypass URL normalization when proxies are used",
+            "url": "https://github.com/psf/requests/issues/6830"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6885,
+            "title": "Unexpected `SSLEOFError` when Receiving Redirect (307) Response with Large Data Payload",
+            "url": "https://github.com/psf/requests/issues/6885"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6890,
+            "title": "Incorrect Handling of Escaped Quotes in Cookie Values",
+            "url": "https://github.com/psf/requests/issues/6890"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6900,
+            "title": "Unable to request a private URL endpoint with custom SNI and self-signed CA when the proxy is set",
+            "url": "https://github.com/psf/requests/issues/6900"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6917,
+            "title": "Incorrect Content-Length header with StringIO body",
+            "url": "https://github.com/psf/requests/issues/6917"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6990,
+            "title": "`uri` field of digest authentication incorrectly filled when the URL contains semicolons in path",
+            "url": "https://github.com/psf/requests/issues/6990"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6992,
+            "title": "POST Multipart-Encoding does not work if the Content-Type header has been previously defined in the session",
+            "url": "https://github.com/psf/requests/issues/6992"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7040,
+            "title": "2.32.5 breaks passing custom SSL context",
+            "url": "https://github.com/psf/requests/issues/7040"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7122,
+            "title": "Unable to override cookie policy in Session.prepare_request",
+            "url": "https://github.com/psf/requests/issues/7122"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7141,
+            "title": "Request for clarification: URL parsing behavior in Requests (RFC 3986 vs WHATWG)",
+            "url": "https://github.com/psf/requests/issues/7141"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7188,
+            "title": "DMTF Redfish fails with 2.32 request module",
+            "url": "https://github.com/psf/requests/issues/7188"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7223,
+            "title": "Chardet is used, when it is available, not when `[use-chardet-on-py3]`-extra is installed",
+            "url": "https://github.com/psf/requests/issues/7223"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7341,
+            "title": "Documentation for ChunkedEncodingError is either incorrect or very misleading",
+            "url": "https://github.com/psf/requests/issues/7341"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7350,
+            "title": "[Docs] Clarify behavior of timeout parameter in requests.get",
+            "url": "https://github.com/psf/requests/issues/7350"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7357,
+            "title": "Localization of The Requests Documentation",
+            "url": "https://github.com/psf/requests/issues/7357"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7399,
+            "title": "documentation for requests.session.request(verify=...) duplicates requests.request() even where it is different",
+            "url": "https://github.com/psf/requests/issues/7399"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7443,
+            "title": "mypy warns about invalid types for json argument",
+            "url": "https://github.com/psf/requests/issues/7443"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7547,
+            "title": "Documentation suggestion: Add troubleshooting guidance for common SSL verification errors",
+            "url": "https://github.com/psf/requests/issues/7547"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7564,
+            "title": "raise FileNotFoundError for missing TLS material",
+            "url": "https://github.com/psf/requests/issues/7564"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7574,
+            "title": "Support for HTTP Query Method",
+            "url": "https://github.com/psf/requests/issues/7574"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7599,
+            "title": "Documentation for stream parameter is ambiguous",
+            "url": "https://github.com/psf/requests/issues/7599"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7610,
+            "title": "Drop the versionless `License ::` classifier now that `license` is a valid SPDX expression",
+            "url": "https://github.com/psf/requests/issues/7610"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7617,
+            "title": "OpenSSL 4 removed built-in logic for SKID and AKID",
+            "url": "https://github.com/psf/requests/issues/7617"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7620,
+            "title": "PR 5410 got merged but is not in fact merged",
+            "url": "https://github.com/psf/requests/issues/7620"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7627,
+            "title": "Docstring examples in `from_key_val_list` show the pre-3.12 OrderedDict repr",
+            "url": "https://github.com/psf/requests/issues/7627"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7629,
+            "title": "proxy_bypass_registry uses unanchored re.match (Windows proxy bypass)",
+            "url": "https://github.com/psf/requests/issues/7629"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7630,
+            "title": "Incorrect type annotation for iter_lines",
+            "url": "https://github.com/psf/requests/issues/7630"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7631,
+            "title": "TestTimeout abandons three delay/10 requests and later tests wait out the server",
+            "url": "https://github.com/psf/requests/issues/7631"
+          }
+        ],
+        "counts": {
+          "imported": 39,
+          "inserted": 39,
+          "updated": 0,
+          "unchanged": 0,
+          "pull_requests_skipped": 61,
+          "total_saved": 39
+        }
+      },
+      "exit_code": 0,
+      "elapsed_seconds": 2.2869,
+      "network_disabled": false
+    },
+    {
+      "name": "2 Offline read in a new process",
+      "command": "python -m rocketride read psf/requests --db demo.sqlite3",
+      "result": {
+        "ok": true,
+        "repository": "psf/requests",
+        "issues": [
+          {
+            "repository": "psf/requests",
+            "number": 6275,
+            "title": "[Feature request or doc oversight?] Apparently, there's still no way to read uncompressed content as file-like object #465 ",
+            "url": "https://github.com/psf/requests/issues/6275"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6282,
+            "title": "IPv6 Zone Identifiers are not correctly parsed (still)",
+            "url": "https://github.com/psf/requests/issues/6282"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6294,
+            "title": "PUT requests for zero-byte files get 'Transfer-Encoding': 'chunked' header",
+            "url": "https://github.com/psf/requests/issues/6294"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6313,
+            "title": "requests ignores no_proxy which contains a IPv6 CIDR ",
+            "url": "https://github.com/psf/requests/issues/6313"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6512,
+            "title": "Requests are not retried when received body length is shorter than Content-Length",
+            "url": "https://github.com/psf/requests/issues/6512"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6582,
+            "title": "\"Recommended Packages and Extensions\" page asyncio recommendations are outdated",
+            "url": "https://github.com/psf/requests/issues/6582"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6653,
+            "title": "Document which exceptions request() might raise",
+            "url": "https://github.com/psf/requests/issues/6653"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6734,
+            "title": "requests 2.32.3 & urllib3 1.26.18 issue with unicode put",
+            "url": "https://github.com/psf/requests/issues/6734"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6735,
+            "title": "requests 2.32.3 with IPv6 link local address fails with error: [Errno -2] Name or service not known",
+            "url": "https://github.com/psf/requests/issues/6735"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6782,
+            "title": "Doc: missing example",
+            "url": "https://github.com/psf/requests/issues/6782"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6808,
+            "title": "Double-digit link-local IPv6 zone id raises ValueError",
+            "url": "https://github.com/psf/requests/issues/6808"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6830,
+            "title": "PreparedRequests can't bypass URL normalization when proxies are used",
+            "url": "https://github.com/psf/requests/issues/6830"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6885,
+            "title": "Unexpected `SSLEOFError` when Receiving Redirect (307) Response with Large Data Payload",
+            "url": "https://github.com/psf/requests/issues/6885"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6890,
+            "title": "Incorrect Handling of Escaped Quotes in Cookie Values",
+            "url": "https://github.com/psf/requests/issues/6890"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6900,
+            "title": "Unable to request a private URL endpoint with custom SNI and self-signed CA when the proxy is set",
+            "url": "https://github.com/psf/requests/issues/6900"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6917,
+            "title": "Incorrect Content-Length header with StringIO body",
+            "url": "https://github.com/psf/requests/issues/6917"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6990,
+            "title": "`uri` field of digest authentication incorrectly filled when the URL contains semicolons in path",
+            "url": "https://github.com/psf/requests/issues/6990"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6992,
+            "title": "POST Multipart-Encoding does not work if the Content-Type header has been previously defined in the session",
+            "url": "https://github.com/psf/requests/issues/6992"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7040,
+            "title": "2.32.5 breaks passing custom SSL context",
+            "url": "https://github.com/psf/requests/issues/7040"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7122,
+            "title": "Unable to override cookie policy in Session.prepare_request",
+            "url": "https://github.com/psf/requests/issues/7122"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7141,
+            "title": "Request for clarification: URL parsing behavior in Requests (RFC 3986 vs WHATWG)",
+            "url": "https://github.com/psf/requests/issues/7141"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7188,
+            "title": "DMTF Redfish fails with 2.32 request module",
+            "url": "https://github.com/psf/requests/issues/7188"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7223,
+            "title": "Chardet is used, when it is available, not when `[use-chardet-on-py3]`-extra is installed",
+            "url": "https://github.com/psf/requests/issues/7223"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7341,
+            "title": "Documentation for ChunkedEncodingError is either incorrect or very misleading",
+            "url": "https://github.com/psf/requests/issues/7341"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7350,
+            "title": "[Docs] Clarify behavior of timeout parameter in requests.get",
+            "url": "https://github.com/psf/requests/issues/7350"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7357,
+            "title": "Localization of The Requests Documentation",
+            "url": "https://github.com/psf/requests/issues/7357"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7399,
+            "title": "documentation for requests.session.request(verify=...) duplicates requests.request() even where it is different",
+            "url": "https://github.com/psf/requests/issues/7399"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7443,
+            "title": "mypy warns about invalid types for json argument",
+            "url": "https://github.com/psf/requests/issues/7443"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7547,
+            "title": "Documentation suggestion: Add troubleshooting guidance for common SSL verification errors",
+            "url": "https://github.com/psf/requests/issues/7547"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7564,
+            "title": "raise FileNotFoundError for missing TLS material",
+            "url": "https://github.com/psf/requests/issues/7564"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7574,
+            "title": "Support for HTTP Query Method",
+            "url": "https://github.com/psf/requests/issues/7574"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7599,
+            "title": "Documentation for stream parameter is ambiguous",
+            "url": "https://github.com/psf/requests/issues/7599"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7610,
+            "title": "Drop the versionless `License ::` classifier now that `license` is a valid SPDX expression",
+            "url": "https://github.com/psf/requests/issues/7610"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7617,
+            "title": "OpenSSL 4 removed built-in logic for SKID and AKID",
+            "url": "https://github.com/psf/requests/issues/7617"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7620,
+            "title": "PR 5410 got merged but is not in fact merged",
+            "url": "https://github.com/psf/requests/issues/7620"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7627,
+            "title": "Docstring examples in `from_key_val_list` show the pre-3.12 OrderedDict repr",
+            "url": "https://github.com/psf/requests/issues/7627"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7629,
+            "title": "proxy_bypass_registry uses unanchored re.match (Windows proxy bypass)",
+            "url": "https://github.com/psf/requests/issues/7629"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7630,
+            "title": "Incorrect type annotation for iter_lines",
+            "url": "https://github.com/psf/requests/issues/7630"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7631,
+            "title": "TestTimeout abandons three delay/10 requests and later tests wait out the server",
+            "url": "https://github.com/psf/requests/issues/7631"
+          }
+        ],
+        "total_saved": 39
+      },
+      "exit_code": 0,
+      "elapsed_seconds": 1.2127,
+      "network_disabled": true
+    },
+    {
+      "name": "3 Repeat the real import",
+      "command": "python -m rocketride import psf/requests --db demo.sqlite3",
+      "result": {
+        "ok": true,
+        "repository": "psf/requests",
+        "issues": [
+          {
+            "repository": "psf/requests",
+            "number": 6275,
+            "title": "[Feature request or doc oversight?] Apparently, there's still no way to read uncompressed content as file-like object #465 ",
+            "url": "https://github.com/psf/requests/issues/6275"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6282,
+            "title": "IPv6 Zone Identifiers are not correctly parsed (still)",
+            "url": "https://github.com/psf/requests/issues/6282"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6294,
+            "title": "PUT requests for zero-byte files get 'Transfer-Encoding': 'chunked' header",
+            "url": "https://github.com/psf/requests/issues/6294"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6313,
+            "title": "requests ignores no_proxy which contains a IPv6 CIDR ",
+            "url": "https://github.com/psf/requests/issues/6313"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6512,
+            "title": "Requests are not retried when received body length is shorter than Content-Length",
+            "url": "https://github.com/psf/requests/issues/6512"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6582,
+            "title": "\"Recommended Packages and Extensions\" page asyncio recommendations are outdated",
+            "url": "https://github.com/psf/requests/issues/6582"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6653,
+            "title": "Document which exceptions request() might raise",
+            "url": "https://github.com/psf/requests/issues/6653"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6734,
+            "title": "requests 2.32.3 & urllib3 1.26.18 issue with unicode put",
+            "url": "https://github.com/psf/requests/issues/6734"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6735,
+            "title": "requests 2.32.3 with IPv6 link local address fails with error: [Errno -2] Name or service not known",
+            "url": "https://github.com/psf/requests/issues/6735"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6782,
+            "title": "Doc: missing example",
+            "url": "https://github.com/psf/requests/issues/6782"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6808,
+            "title": "Double-digit link-local IPv6 zone id raises ValueError",
+            "url": "https://github.com/psf/requests/issues/6808"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6830,
+            "title": "PreparedRequests can't bypass URL normalization when proxies are used",
+            "url": "https://github.com/psf/requests/issues/6830"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6885,
+            "title": "Unexpected `SSLEOFError` when Receiving Redirect (307) Response with Large Data Payload",
+            "url": "https://github.com/psf/requests/issues/6885"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6890,
+            "title": "Incorrect Handling of Escaped Quotes in Cookie Values",
+            "url": "https://github.com/psf/requests/issues/6890"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6900,
+            "title": "Unable to request a private URL endpoint with custom SNI and self-signed CA when the proxy is set",
+            "url": "https://github.com/psf/requests/issues/6900"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6917,
+            "title": "Incorrect Content-Length header with StringIO body",
+            "url": "https://github.com/psf/requests/issues/6917"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6990,
+            "title": "`uri` field of digest authentication incorrectly filled when the URL contains semicolons in path",
+            "url": "https://github.com/psf/requests/issues/6990"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6992,
+            "title": "POST Multipart-Encoding does not work if the Content-Type header has been previously defined in the session",
+            "url": "https://github.com/psf/requests/issues/6992"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7040,
+            "title": "2.32.5 breaks passing custom SSL context",
+            "url": "https://github.com/psf/requests/issues/7040"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7122,
+            "title": "Unable to override cookie policy in Session.prepare_request",
+            "url": "https://github.com/psf/requests/issues/7122"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7141,
+            "title": "Request for clarification: URL parsing behavior in Requests (RFC 3986 vs WHATWG)",
+            "url": "https://github.com/psf/requests/issues/7141"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7188,
+            "title": "DMTF Redfish fails with 2.32 request module",
+            "url": "https://github.com/psf/requests/issues/7188"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7223,
+            "title": "Chardet is used, when it is available, not when `[use-chardet-on-py3]`-extra is installed",
+            "url": "https://github.com/psf/requests/issues/7223"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7341,
+            "title": "Documentation for ChunkedEncodingError is either incorrect or very misleading",
+            "url": "https://github.com/psf/requests/issues/7341"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7350,
+            "title": "[Docs] Clarify behavior of timeout parameter in requests.get",
+            "url": "https://github.com/psf/requests/issues/7350"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7357,
+            "title": "Localization of The Requests Documentation",
+            "url": "https://github.com/psf/requests/issues/7357"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7399,
+            "title": "documentation for requests.session.request(verify=...) duplicates requests.request() even where it is different",
+            "url": "https://github.com/psf/requests/issues/7399"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7443,
+            "title": "mypy warns about invalid types for json argument",
+            "url": "https://github.com/psf/requests/issues/7443"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7547,
+            "title": "Documentation suggestion: Add troubleshooting guidance for common SSL verification errors",
+            "url": "https://github.com/psf/requests/issues/7547"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7564,
+            "title": "raise FileNotFoundError for missing TLS material",
+            "url": "https://github.com/psf/requests/issues/7564"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7574,
+            "title": "Support for HTTP Query Method",
+            "url": "https://github.com/psf/requests/issues/7574"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7599,
+            "title": "Documentation for stream parameter is ambiguous",
+            "url": "https://github.com/psf/requests/issues/7599"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7610,
+            "title": "Drop the versionless `License ::` classifier now that `license` is a valid SPDX expression",
+            "url": "https://github.com/psf/requests/issues/7610"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7617,
+            "title": "OpenSSL 4 removed built-in logic for SKID and AKID",
+            "url": "https://github.com/psf/requests/issues/7617"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7620,
+            "title": "PR 5410 got merged but is not in fact merged",
+            "url": "https://github.com/psf/requests/issues/7620"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7627,
+            "title": "Docstring examples in `from_key_val_list` show the pre-3.12 OrderedDict repr",
+            "url": "https://github.com/psf/requests/issues/7627"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7629,
+            "title": "proxy_bypass_registry uses unanchored re.match (Windows proxy bypass)",
+            "url": "https://github.com/psf/requests/issues/7629"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7630,
+            "title": "Incorrect type annotation for iter_lines",
+            "url": "https://github.com/psf/requests/issues/7630"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7631,
+            "title": "TestTimeout abandons three delay/10 requests and later tests wait out the server",
+            "url": "https://github.com/psf/requests/issues/7631"
+          }
+        ],
+        "counts": {
+          "imported": 39,
+          "inserted": 0,
+          "updated": 0,
+          "unchanged": 39,
+          "pull_requests_skipped": 61,
+          "total_saved": 39
+        }
+      },
+      "exit_code": 0,
+      "elapsed_seconds": 1.6872,
+      "network_disabled": false
+    },
+    {
+      "name": "4 Real API error",
+      "command": "python -m rocketride import octocat/rocketride-deliberately-missing-repository-2026 --db demo.sqlite3",
+      "result": {
+        "ok": false,
+        "error": {
+          "code": "API_ERROR",
+          "message": "Repository not found or not publicly accessible. Check owner/name.",
+          "status": 404
+        },
+        "repository": "octocat/rocketride-deliberately-missing-repository-2026"
+      },
+      "exit_code": 1,
+      "elapsed_seconds": 3.4286,
+      "network_disabled": false
+    },
+    {
+      "name": "5 Verify data after the failure",
+      "command": "python -m rocketride read psf/requests --db demo.sqlite3",
+      "result": {
+        "ok": true,
+        "repository": "psf/requests",
+        "issues": [
+          {
+            "repository": "psf/requests",
+            "number": 6275,
+            "title": "[Feature request or doc oversight?] Apparently, there's still no way to read uncompressed content as file-like object #465 ",
+            "url": "https://github.com/psf/requests/issues/6275"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6282,
+            "title": "IPv6 Zone Identifiers are not correctly parsed (still)",
+            "url": "https://github.com/psf/requests/issues/6282"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6294,
+            "title": "PUT requests for zero-byte files get 'Transfer-Encoding': 'chunked' header",
+            "url": "https://github.com/psf/requests/issues/6294"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6313,
+            "title": "requests ignores no_proxy which contains a IPv6 CIDR ",
+            "url": "https://github.com/psf/requests/issues/6313"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6512,
+            "title": "Requests are not retried when received body length is shorter than Content-Length",
+            "url": "https://github.com/psf/requests/issues/6512"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6582,
+            "title": "\"Recommended Packages and Extensions\" page asyncio recommendations are outdated",
+            "url": "https://github.com/psf/requests/issues/6582"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6653,
+            "title": "Document which exceptions request() might raise",
+            "url": "https://github.com/psf/requests/issues/6653"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6734,
+            "title": "requests 2.32.3 & urllib3 1.26.18 issue with unicode put",
+            "url": "https://github.com/psf/requests/issues/6734"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6735,
+            "title": "requests 2.32.3 with IPv6 link local address fails with error: [Errno -2] Name or service not known",
+            "url": "https://github.com/psf/requests/issues/6735"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6782,
+            "title": "Doc: missing example",
+            "url": "https://github.com/psf/requests/issues/6782"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6808,
+            "title": "Double-digit link-local IPv6 zone id raises ValueError",
+            "url": "https://github.com/psf/requests/issues/6808"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6830,
+            "title": "PreparedRequests can't bypass URL normalization when proxies are used",
+            "url": "https://github.com/psf/requests/issues/6830"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6885,
+            "title": "Unexpected `SSLEOFError` when Receiving Redirect (307) Response with Large Data Payload",
+            "url": "https://github.com/psf/requests/issues/6885"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6890,
+            "title": "Incorrect Handling of Escaped Quotes in Cookie Values",
+            "url": "https://github.com/psf/requests/issues/6890"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6900,
+            "title": "Unable to request a private URL endpoint with custom SNI and self-signed CA when the proxy is set",
+            "url": "https://github.com/psf/requests/issues/6900"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6917,
+            "title": "Incorrect Content-Length header with StringIO body",
+            "url": "https://github.com/psf/requests/issues/6917"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6990,
+            "title": "`uri` field of digest authentication incorrectly filled when the URL contains semicolons in path",
+            "url": "https://github.com/psf/requests/issues/6990"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 6992,
+            "title": "POST Multipart-Encoding does not work if the Content-Type header has been previously defined in the session",
+            "url": "https://github.com/psf/requests/issues/6992"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7040,
+            "title": "2.32.5 breaks passing custom SSL context",
+            "url": "https://github.com/psf/requests/issues/7040"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7122,
+            "title": "Unable to override cookie policy in Session.prepare_request",
+            "url": "https://github.com/psf/requests/issues/7122"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7141,
+            "title": "Request for clarification: URL parsing behavior in Requests (RFC 3986 vs WHATWG)",
+            "url": "https://github.com/psf/requests/issues/7141"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7188,
+            "title": "DMTF Redfish fails with 2.32 request module",
+            "url": "https://github.com/psf/requests/issues/7188"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7223,
+            "title": "Chardet is used, when it is available, not when `[use-chardet-on-py3]`-extra is installed",
+            "url": "https://github.com/psf/requests/issues/7223"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7341,
+            "title": "Documentation for ChunkedEncodingError is either incorrect or very misleading",
+            "url": "https://github.com/psf/requests/issues/7341"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7350,
+            "title": "[Docs] Clarify behavior of timeout parameter in requests.get",
+            "url": "https://github.com/psf/requests/issues/7350"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7357,
+            "title": "Localization of The Requests Documentation",
+            "url": "https://github.com/psf/requests/issues/7357"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7399,
+            "title": "documentation for requests.session.request(verify=...) duplicates requests.request() even where it is different",
+            "url": "https://github.com/psf/requests/issues/7399"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7443,
+            "title": "mypy warns about invalid types for json argument",
+            "url": "https://github.com/psf/requests/issues/7443"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7547,
+            "title": "Documentation suggestion: Add troubleshooting guidance for common SSL verification errors",
+            "url": "https://github.com/psf/requests/issues/7547"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7564,
+            "title": "raise FileNotFoundError for missing TLS material",
+            "url": "https://github.com/psf/requests/issues/7564"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7574,
+            "title": "Support for HTTP Query Method",
+            "url": "https://github.com/psf/requests/issues/7574"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7599,
+            "title": "Documentation for stream parameter is ambiguous",
+            "url": "https://github.com/psf/requests/issues/7599"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7610,
+            "title": "Drop the versionless `License ::` classifier now that `license` is a valid SPDX expression",
+            "url": "https://github.com/psf/requests/issues/7610"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7617,
+            "title": "OpenSSL 4 removed built-in logic for SKID and AKID",
+            "url": "https://github.com/psf/requests/issues/7617"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7620,
+            "title": "PR 5410 got merged but is not in fact merged",
+            "url": "https://github.com/psf/requests/issues/7620"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7627,
+            "title": "Docstring examples in `from_key_val_list` show the pre-3.12 OrderedDict repr",
+            "url": "https://github.com/psf/requests/issues/7627"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7629,
+            "title": "proxy_bypass_registry uses unanchored re.match (Windows proxy bypass)",
+            "url": "https://github.com/psf/requests/issues/7629"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7630,
+            "title": "Incorrect type annotation for iter_lines",
+            "url": "https://github.com/psf/requests/issues/7630"
+          },
+          {
+            "repository": "psf/requests",
+            "number": 7631,
+            "title": "TestTimeout abandons three delay/10 requests and later tests wait out the server",
+            "url": "https://github.com/psf/requests/issues/7631"
+          }
+        ],
+        "total_saved": 39
+      },
+      "exit_code": 0,
+      "elapsed_seconds": 1.9872,
+      "network_disabled": true
+    }
+  ],
+  "verification": "All assertions passed; each invocation used a fresh process."
+}
