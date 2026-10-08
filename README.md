@@ -7,6 +7,7 @@ A small, dependency-free connector that imports one page of open GitHub issues i
 Prerequisites: **Python 3.10 or later**, with the standard `sqlite3` module and SQLite 3.24 or later. Current standard Python installers include these. Internet access is needed only for imports and the live demo. No token, package install, service, or paid tool is required for public repositories.
 
 ```sh
+git clone https://github.com/ericshteremberg/rocketride-issue-connector.git
 cd rocketride-issue-connector
 python --version
 python -m rocketride import psf/requests --db issues.sqlite3
@@ -17,6 +18,16 @@ python -m unittest discover -s tests -v
 Download or clone the source, then use `python3` if your system names Python that way. Commands run from the repository root. `--db` accepts a relative or absolute file path and defaults to `rocketride.sqlite3`; its parent directory must already exist. `:memory:` is rejected because calls must persist across program restarts.
 
 Import and read commands write one JSON result to stdout. Success exits with `0`; connector and argument errors exit with `1`. `python -m rocketride --help` documents the commands. The optional `GITHUB_TOKEN` environment variable authenticates imports if you need a higher GitHub rate limit. Never commit a token. `--timeout 10` sets the HTTP timeout in seconds; valid values are greater than zero and at most 300.
+
+## macOS certificate setup
+
+If a Python installation from python.org reports a network error while other HTTPS tools work, its certificate bundle may be unconfigured. On macOS, if the system CA bundle exists at `/etc/ssl/cert.pem`, the following command uses it while keeping HTTPS certificate verification enabled. Run it in the same terminal before the import or demo commands:
+
+```sh
+export SSL_CERT_FILE=/etc/ssl/cert.pem
+```
+
+This is a terminal-session setting. It does not install packages or change system files. Other operating systems should use their configured certificate store.
 
 ## Reuse as functions
 
