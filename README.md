@@ -1,4 +1,4 @@
-# RocketRide GitHub issue connector
+# RocketRide Round 1
 
 A small, dependency-free connector that imports one page of open GitHub issues into SQLite and reads the saved records offline. Imports are atomic, pull requests are excluded, and repeated imports update existing issues without creating duplicates.
 
@@ -7,8 +7,8 @@ A small, dependency-free connector that imports one page of open GitHub issues i
 Prerequisites: **Python 3.10 or later**, with the standard `sqlite3` module and SQLite 3.24 or later. Current standard Python installers include these. Internet access is needed only for imports and the live demo. No token, package install, service, or paid tool is required for public repositories.
 
 ```sh
-git clone https://github.com/ericshteremberg/rocketride-issue-connector.git
-cd rocketride-issue-connector
+git clone https://github.com/ericshteremberg/rocketride-round-1.git
+cd rocketride-round-1
 python --version
 python -m rocketride import psf/requests --db issues.sqlite3
 python -m rocketride read psf/requests --db issues.sqlite3
@@ -109,7 +109,7 @@ python scripts/demo.py --record demo-recording.json
 
 The live demo uses a temporary database and separate Python processes. It demonstrates a real public import, an offline read with socket connections disabled, a repeated real import with unique issue identities, a real API 404, and preservation of saved data after the error. It removes `GITHUB_TOKEN` from child environments so the demonstration does not depend on credentials. GitHub data can change between calls; the demo validates uniqueness and explains counts rather than assuming the upstream page is frozen.
 
-The tests cover updates, unchanged reimports, multiple repositories, pull-request filtering, persistence, offline reads, invalid input, API failures, malformed responses, and rollback boundaries. The same suite passed on Linux and Windows with Python 3.10 and 3.14 in [GitHub Actions](https://github.com/ericshteremberg/rocketride-issue-connector/actions/runs/37739704604). See [Architecture.MD](Architecture.MD) for the design and [DEMO.md](DEMO.md) for the recording.
+The tests cover updates, unchanged reimports, multiple repositories, pull-request filtering, persistence, offline reads, invalid input, API failures, malformed responses, and rollback boundaries. The same suite passed on Linux and Windows with Python 3.10 and 3.14 in [GitHub Actions](https://github.com/ericshteremberg/rocketride-round-1/actions/runs/37739704604). See [Architecture.MD](Architecture.MD) for the design and [DEMO.md](DEMO.md) for the recording.
 
 ## AI use and verification
 
