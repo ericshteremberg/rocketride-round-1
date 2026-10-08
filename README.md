@@ -109,7 +109,7 @@ python scripts/demo.py --record demo-recording.json
 
 The live demo uses a temporary database and separate Python processes. It demonstrates a real public import, an offline read with socket connections disabled, a repeated real import with unique issue identities, a real API 404, and preservation of saved data after the error. It removes `GITHUB_TOKEN` from child environments so the demonstration does not depend on credentials. GitHub data can change between calls; the demo validates uniqueness and explains counts rather than assuming the upstream page is frozen.
 
-The tests cover updates, unchanged reimports, multiple repositories, pull-request filtering, persistence, offline reads, invalid input, API failures, malformed responses, and rollback boundaries. The included CI workflow configures the same suite on Linux and Windows with Python 3.10 and 3.14; the remote matrix has not been run. See [Architecture.MD](Architecture.MD) for the design and [DEMO.md](DEMO.md) for the recording.
+The tests cover updates, unchanged reimports, multiple repositories, pull-request filtering, persistence, offline reads, invalid input, API failures, malformed responses, and rollback boundaries. The same suite passed on Linux and Windows with Python 3.10 and 3.14 in [GitHub Actions](https://github.com/ericshteremberg/rocketride-issue-connector/actions/runs/37739704604). See [Architecture.MD](Architecture.MD) for the design and [DEMO.md](DEMO.md) for the recording.
 
 ## AI use and verification
 
